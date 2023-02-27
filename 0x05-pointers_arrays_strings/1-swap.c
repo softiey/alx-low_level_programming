@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * THe program swap two variables
- * @c 
- * @j
- * return: 0
- */
-
+  * swap_int - Swaps the values of two integers
+  *
+  * @c: An integer to swap
+  * @j: Another integer to swap
+  *
+  * Return: void
+  */
 void swap_int(int *c, int *j)
 {
-  *c = 98;
-  *j = 42;
+	int axe;
 
-  c = &j;
-  return (0);
+	axe = *c;
+	*a = *j;
+	*j = axe;
 }
