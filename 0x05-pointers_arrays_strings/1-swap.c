@@ -3,16 +3,16 @@
 /**
   * swap_int - Swaps the values of two integers
   *
-  * @c: An integer to swap
-  * @j: Another integer to swap
+  * @a: An integer to swap
+  * @b: Another integer to swap
   *
   * Return: void
   */
-void swap_int(int *c, int *j)
+void swap_int(int *a, int *b)
 {
-	int axe;
+	int aux;
 
-	axe = *c;
-	*a = *j;
-	*j = axe;
+	aux = *a;
+	*a = *b;
+	*b = aux;
 }
