@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "main.h"
 /**
  * The program generate ramdompassword 
  * to crack 
