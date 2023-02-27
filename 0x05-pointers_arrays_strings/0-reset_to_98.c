@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * This program point the value of
- * an integr to an
- *
- * @p pointer to p
- * Retur: void
- */
+  * reset_to_98 - Updates the value it points to 98
+  * @n: pointer to n
+  *
+  * Return: void
+  */
 
 void reset_to_98(int *p)
 {
