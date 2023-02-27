@@ -3,7 +3,9 @@
 /**
  * This program point the value of
  * an integr to an
- * address
+ *
+ * @p pointer to p
+ * Retur: void
  */
 
 void reset_to_98(int *p)
